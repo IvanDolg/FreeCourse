@@ -6,7 +6,8 @@ public class FirstTask {
         //getNnmber();
         //getSquaresNum();
         //getSquaresMultiplication();
-        getSum();
+        //getSum();
+        getSymbol();
     }
 
     public static Scanner scanner(){
@@ -67,7 +68,6 @@ public class FirstTask {
         System.out.print("Enter e num: ");
         double e = scanner().nextDouble();
 
-
         for (int i = 1; i <= n; i++){
             a = (1/Math.pow(2, n)) + (1/Math.pow(3, n));
             if (Math.abs(a) >= e){
@@ -78,5 +78,15 @@ public class FirstTask {
         System.out.println("General element: " + a);
         System.out.println("Number e: " + e);
         System.out.println("Sum is: " + sum);
+    }
+    // 5 task
+    // Display the correspondences between the symbols and their
+    // numerical designations in the computer memory.
+    public static void getSymbol(){
+        System.out.println("\n\t\t ---- 5 TASK ----");
+        System.out.print("Enter symbol: ");
+        char symbol = scanner().next().charAt(0);
+
+        System.out.println(symbol + " - " + (int)symbol);
     }
 }

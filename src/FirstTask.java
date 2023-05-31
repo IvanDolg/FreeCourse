@@ -5,6 +5,7 @@ public class FirstTask {
         scanner();
         getNnmber();
         getSquaresNum();
+        getSquaresMultiplication();
     }
 
     public static Scanner scanner(){
@@ -37,5 +38,20 @@ public class FirstTask {
             sum += Math.pow(i, 2);
         }
         System.out.println("Sum of the squares from 1 to " + num + " is " + sum);
+    }
+    // 3 task
+    // Find the product of the squares of the first two hundred numbers.
+    public static void getSquaresMultiplication(){
+        System.out.println("\n\t\t ---- 3 TASK ----");
+        System.out.print("Write number: ");
+        int num = scanner().nextInt();
+        double sum = 0;
+        int multiplication = 1;
+
+        for (int i = 1; i <= num; i++){
+            sum = Math.pow(i, 2);
+            multiplication *= sum;
+        }
+        System.out.println("Sum of the squares multiplication from 1 to " + num + " is " + multiplication);
     }
 }

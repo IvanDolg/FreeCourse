@@ -60,7 +60,6 @@ public class FirstTask {
     // to the given e.
     public static void getSum(){
         System.out.println("\n\t\t ---- 4 TASK ----");
-        // calculation of the common member
         double a = 0;
         double sum = 0;
         double n = 1;

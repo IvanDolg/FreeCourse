@@ -7,7 +7,8 @@ public class FirstTask {
         //getSquaresNum();
         //getSquaresMultiplication();
         //getSum();
-        getSymbol();
+        //getSymbol();
+        getDivider();
     }
 
     public static Scanner scanner(){
@@ -88,5 +89,34 @@ public class FirstTask {
         char symbol = scanner().next().charAt(0);
 
         System.out.println(symbol + " - " + (int)symbol);
+    }
+    // 6 task
+    // For each natural number in the range from m to n,
+    // print all divisors except one and the number itself.
+    // m and n are entered from the keyboard.
+    public static void getDivider(){
+        System.out.println("\n\t\t ---- 6 TASK ----");
+        System.out.print("Enter m: ");
+        int m = scanner().nextInt();
+        System.out.print("Enter n: ");
+        int n = scanner().nextInt();
+
+        for (int i = m; i <= n; i++){
+            System.out.println("\n\nNumber: " + i);
+            System.out.print("Dividers: ");
+            int count = 0;
+
+            for(int j = 2; j <= n; j++){
+                if (i == j){
+                    continue;
+                } else  if (i % j == 0 && j != n){
+                    System.out.print(j + " ");
+                    count ++;
+                }
+            }
+            if (count == 0){
+                System.out.println("No more divuders then 1 & " + i);
+            }
+        }
     }
 }

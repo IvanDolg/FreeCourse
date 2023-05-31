@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class FirstTask {
     public static void main(String[] args) {
         scanner();
-        //getNnmber();
-        //getSquaresNum();
-        //getSquaresMultiplication();
-        //getSum();
-        //getSymbol();
+        getNnmber();
+        getSquaresNum();
+        getSquaresMultiplication();
+        getSum();
+        getSymbol();
         getDivider();
     }
 

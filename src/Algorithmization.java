@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Algorithmization {
     public static void main(String[] args) {
-        //array0();
+        array0();
         //array1();
         //array2();
-        array3();
+        //array3();
     }
     public static Scanner scanner(){
         return new Scanner(System.in);
@@ -16,8 +16,7 @@ public class Algorithmization {
     // 1. В массив A [N] занесены натуральные числа. Найти сумму тех элементов,
     // которые кратны данному К.
     public static void array0(){
-        int index = 0;
-        int counter = 0;
+        int sum = 0;
         int[] array = new int[10];
 
         //  Random array
@@ -31,20 +30,12 @@ public class Algorithmization {
         int number = scanner().nextInt();
 
         for (int el : array){
-            if (el % number != 0){
-                counter++;
+            if (el % number == 0){
+                sum += el;
             }
         }
+        System.out.print("Sum of el: " + sum);
 
-        int [] resultArr = new int[array.length - counter];
-
-        for (int i : array) {
-            if (i % number == 0) {
-                resultArr[index] = i;
-                index++;
-            }
-        }
-        System.out.print(Arrays.toString(resultArr));
     }
     // 2. Дана последовательность действительных чисел а1 ,а2 ,..., ап.
     // Заменить все ее члены, большие данного Z, этим

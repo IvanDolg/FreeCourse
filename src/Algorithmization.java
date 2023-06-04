@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Algorithmization {
     public static void main(String[] args) {
-        array0();
-        //array1();
+        //array0();
+        array1();
         //array2();
         //array3();
     }
@@ -57,10 +57,10 @@ public class Algorithmization {
         int [] resultArr = new int[array.length];
 
         for (int i = 0; i < array.length; i++) {
-            if (number < i) {
-                resultArr[index] = i;
+            if (number < array[i]) {
+                resultArr[index] = array[i];
                 index++;
-            } else if (number >= i) {
+            } else if (number >= array[i]) {
                 resultArr[index] = number;
                 index++;
             }

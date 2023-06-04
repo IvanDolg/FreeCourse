@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="725ad71f-73a1-4934-9882-72dd6b8c1ad2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithmization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithmization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/vvvvv/Desktop/Java junior/TeachMeSkillsC22-onl",
+    "last_opened_file_path": "C:/Users/vvvvv/Desktop/Java junior/FreeCourse",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685554581751</updated>
       <workItem from="1685554583126" duration="12927000" />
+      <workItem from="1685881183118" duration="306000" />
     </task>
     <servers />
   </component>

@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Algorithmization {
     public static void main(String[] args) {
         //array0();
-        array1();
+        //array1();
         //array2();
         //array3();
+        array4();
     }
     public static Scanner scanner(){
         return new Scanner(System.in);
@@ -120,4 +121,37 @@ public class Algorithmization {
         array[min] =  tmp;
         System.out.println("This is your array: " + Arrays.toString(array));
     }
+    // 5. Даны целые числа а1 ,а2 ,..., аn . Вывести на печать только те числа, для которых аi > i.
+    public static void array4(){
+        int[] array = new int[10];
+        int count = 0;
+        int index = 0;
+
+        //  Random array
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++){
+            array[i] = random.nextInt(10);
+        }
+        System.out.println("This is your array: " + Arrays.toString(array));
+
+        System.out.print("Enter number i: ");
+        int number = scanner().nextInt();
+
+        for (int el : array){
+            if (el >= number){
+                count ++;
+            }
+        }
+
+        int [] resultArr = new int[array.length - count];
+
+        for (int i = 0; i < array.length; i++){
+            if (array[i] > number){
+                resultArr[index] = array[i];
+                index++;
+            }
+        }
+        System.out.print("This is your new array: " + Arrays.toString(resultArr));
+    }
+
 }

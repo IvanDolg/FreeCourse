@@ -7,7 +7,8 @@ public class Algorithmization1 {
         //array0();
         //array1();
         //array2();
-        array3();
+        //array3();
+        array4();
     }
     public static Scanner scanner(){
         return new Scanner(System.in);
@@ -116,6 +117,30 @@ public class Algorithmization1 {
                 if (i % 2 == 0){
                     array[i][j] = j + 1;
                 } else array[i][j] = n - j;
+            }
+        }
+        System.out.println("This is your array: ");
+        for (int [] columns : array){
+            for (int el : columns){
+                System.out.print(el + "\t");
+            }
+            System.out.println();
+        }
+    }
+    // 5. Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):
+    public static void array4(){
+        int n = 6;
+        int[][] array = new int[n][n];
+
+        for (int i = 0; i < n; i++){
+            for (int j = 0; j < n; j++){
+                array[i][j] = i + 1;
+            }
+        }
+        for (int i = 0; i < n; i++){
+            for (int j = n - i; j < n; j++){
+                    array[i][j] = 0;
+
             }
         }
         System.out.println("This is your array: ");

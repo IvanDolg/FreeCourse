@@ -4,7 +4,8 @@ import java.util.Random;
 public class Algorithmization2 {
     public static void main(String[] args) {
         //sort0();
-        sort1();
+        //sort1();
+        sort2();
     }
     //---- Одномерные массивы. Сортировки ----
     // Сортировка выбором. Дана последовательность чисел.Требуется переставить элементы так,
@@ -59,5 +60,23 @@ public class Algorithmization2 {
             }
         }
         System.out.println("This is your sort array: " + Arrays.toString(array));
+    }
+    // Сортировка вставками. Дана последовательность чисел.
+    // Требуется переставить числа в порядке возрастания.
+    // Делается это следующим образом. Пусть - упорядоченная последовательность, т. е.
+    // Берется следующее число  и вставляется в последовательность так, чтобы новая последовательность
+    // была тоже возрастающей. Процесс производится до тех пор, пока все элементы от i + 1 до n
+    // не будут перебраны. Примечание. Место помещения очередного элемента в отсортированную часть производить
+    // с помощью двоичного поиска. Двоичный поиск оформить в виде отдельной функции.
+    public static void sort2(){
+        int[] array = new int[10];
+
+        //  Random array
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++){
+            array[i] = random.nextInt(10);
+        }
+        System.out.println("This is your array: " + Arrays.toString(array));
+
     }
 }

@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Algorithmization {
     public static void main(String[] args) {
-        //array0();
-        //array1();
-        //array2();
-        //array3();
+        array0();
+        array1();
+        array2();
+        array3();
         array4();
     }
     public static Scanner scanner(){
@@ -136,7 +136,7 @@ public class Algorithmization {
 
         System.out.print("This is your new array: ");
         for (int i = 0; i < array.length; i++){
-            System.out.print(array[i] < i ? array[i] + "\t" : "");
+            System.out.print(array[i] > i ? array[i] + "\t" : "");
         }
     }
 }

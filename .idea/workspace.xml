@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="725ad71f-73a1-4934-9882-72dd6b8c1ad2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algorithmization2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithmization2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/vvvvv/Desktop/Java junior/FreeCourse",
+    "last_opened_file_path": "C:/Users/vvvvv/Desktop/Java junior/TeachMeSkillsC22-online",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685554581751</updated>
       <workItem from="1685554583126" duration="12927000" />
-      <workItem from="1685881183118" duration="31786000" />
+      <workItem from="1685881183118" duration="35572000" />
     </task>
     <servers />
   </component>

@@ -3,7 +3,8 @@ import java.util.Random;
 
 public class Algorithmization2 {
     public static void main(String[] args) {
-        sort0();
+        //sort0();
+        sort1();
     }
     //---- Одномерные массивы. Сортировки ----
     // Сортировка выбором. Дана последовательность чисел.Требуется переставить элементы так,
@@ -32,6 +33,31 @@ public class Algorithmization2 {
             array[pos] = array[i];
             array[i] = min;
         }
-        System.out.println("Sort array: " + Arrays.toString(array));
+        System.out.println("This is your sort array: " + Arrays.toString(array));
+    }
+    // Сортировка обменами. Дана последовательность чисел.Требуется переставить числа в
+    // порядке возрастания. Для этого сравниваются два соседних числа1+ii aиa . Если, то делается
+    // перестановка. Так продолжается до тех пор, пока все элементы не станут расположены
+    // в порядке возрастания. Составить алгоритм сортировки, подсчитывая при этом количества перестановок.
+    public static void sort1(){
+        int[] array = new int[10];
+
+        //  Random array
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++){
+            array[i] = random.nextInt(10);
+        }
+        System.out.println("This is your array: " + Arrays.toString(array));
+
+        for (int i = 0; i < array.length; i++){
+            for (int j = i + 1; j < array.length; j++){
+                if (array[i] < array[j]){
+                    int tmp = array[j];
+                    array [j] = array[i];
+                    array[i] = tmp;
+                }
+            }
+        }
+        System.out.println("This is your sort array: " + Arrays.toString(array));
     }
 }

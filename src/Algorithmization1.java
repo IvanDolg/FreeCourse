@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Algorithmization1 {
     public static void main(String[] args) {
         //array0();
-        array1();
+        //array1();
+        array2();
     }
     public static Scanner scanner(){
         return new Scanner(System.in);
@@ -69,6 +70,41 @@ public class Algorithmization1 {
         System.out.print("\nSecondary diagonal: ");
         for (int rows = 0; rows < (Math.min(array[0].length, array.length)); rows++) {
             System.out.print(array[rows][array[0].length - rows - 1] + " ");
+        }
+    }
+    // 3 Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
+    public static void array2(){
+        int[][] array = new int[6][6];
+        int row = 0;
+        int col = 0;
+
+        //  Random array
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++){
+            for (int j = 0; j < array[i].length; j++){
+                array[i][j] = random.nextInt(10);
+            }
+        }
+        System.out.println("This is your array: ");
+        for (int [] columns : array){
+            for (int el : columns){
+                System.out.print(el + "\t");
+            }
+            System.out.println();
+        }
+
+        System.out.print("Enter line (k): ");
+        int line = scanner().nextInt();
+        System.out.print("Your line: ");
+        for (int i = 0; i < array[line].length; i++){
+            System.out.print(array[line][i] + " ");
+        }
+
+        System.out.print("\nEnter column (p): ");
+        int column = scanner().nextInt();
+        System.out.println("Your column: ");
+        for (int i = 0; i < array.length; i++){
+            System.out.println(array[i][column]);
         }
     }
 }

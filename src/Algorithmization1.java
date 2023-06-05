@@ -6,7 +6,8 @@ public class Algorithmization1 {
     public static void main(String[] args) {
         //array0();
         //array1();
-        array2();
+        //array2();
+        array3();
     }
     public static Scanner scanner(){
         return new Scanner(System.in);
@@ -75,8 +76,6 @@ public class Algorithmization1 {
     // 3 Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
     public static void array2(){
         int[][] array = new int[6][6];
-        int row = 0;
-        int col = 0;
 
         //  Random array
         Random random = new Random();
@@ -105,6 +104,26 @@ public class Algorithmization1 {
         System.out.println("Your column: ");
         for (int i = 0; i < array.length; i++){
             System.out.println(array[i][column]);
+        }
+    }
+    // 4. Сформировать квадратную матрицу порядка n по заданному образцу(n - четное)
+    public static void array3(){
+        int n = 6;
+        int[][] array = new int[n][n];
+
+        for (int i = 0; i < n; i++){
+            for (int j = 0; j < n; j++){
+                if (i % 2 == 0){
+                    array[i][j] = j + 1;
+                } else array[i][j] = n - j;
+            }
+        }
+        System.out.println("This is your array: ");
+        for (int [] columns : array){
+            for (int el : columns){
+                System.out.print(el + "\t");
+            }
+            System.out.println();
         }
     }
 }

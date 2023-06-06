@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class Algorithmization {
     public static void main(String[] args) {
-        array0();
-        array1();
-        array2();
-        array3();
-        array4();
+        //array0();
+        //array1();
+        //array2();
+        //array3();
+        //array4();
+        array5();
     }
     public static Scanner scanner(){
         return new Scanner(System.in);
@@ -124,8 +125,6 @@ public class Algorithmization {
     // 5. Даны целые числа а1 ,а2 ,..., аn . Вывести на печать только те числа, для которых аi > i.
     public static void array4(){
         int[] array = new int[10];
-        int count = 0;
-        int index = 0;
 
         //  Random array
         Random random = new Random();
@@ -138,5 +137,35 @@ public class Algorithmization {
         for (int i = 0; i < array.length; i++){
             System.out.print(array[i] > i ? array[i] + "\t" : "");
         }
+    }
+    // 6 Задана последовательность N вещественных чисел. Вычислить сумму чисел, порядковые номера которых
+    // являются простыми числами.
+    public static void array5(){
+        int[] array = new int[10];
+        int index = 0;
+
+        //  Random array
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++){
+            array[i] = random.nextInt(100);
+        }
+        System.out.println("This is your array: " + Arrays.toString(array));
+
+        int [] resultArr = new int[array.length];
+
+        for (int i = 0; i < array.length; i++){
+            int count = 0;
+            for (int j = 1; j < 100; j++){
+                if ((array[i] % j) == 0){
+                    count++;
+                }
+            }
+
+            if (count <= 2){
+                resultArr[index] = array[i];
+                index++;
+            }
+        }
+        System.out.println(Arrays.toString(resultArr));
     }
 }

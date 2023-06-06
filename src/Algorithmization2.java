@@ -3,8 +3,8 @@ import java.util.Random;
 
 public class Algorithmization2 {
     public static void main(String[] args) {
-        //sort0();
-        //sort1();
+        sort0();
+        sort1();
         sort2();
     }
     //---- Одномерные массивы. Сортировки ----

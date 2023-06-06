@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Algorithmization {
     public static void main(String[] args) {
-        //array0();
-        //array1();
-        //array2();
-        //array3();
-        //array4();
+        array0();
+        array1();
+        array2();
+        array3();
+        array4();
         array5();
     }
     public static Scanner scanner(){

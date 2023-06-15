@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="725ad71f-73a1-4934-9882-72dd6b8c1ad2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task2/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QZIGC63YEI9Al73gbKZJwWoNMG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +74,7 @@
       <workItem from="1685554583126" duration="12927000" />
       <workItem from="1685881183118" duration="35764000" />
       <workItem from="1686080835833" duration="7247000" />
-      <workItem from="1686757703333" duration="2038000" />
+      <workItem from="1686757703333" duration="5786000" />
     </task>
     <servers />
   </component>

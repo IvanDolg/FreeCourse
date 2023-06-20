@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="725ad71f-73a1-4934-9882-72dd6b8c1ad2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4/Train.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -74,7 +75,8 @@
       <workItem from="1685554583126" duration="12927000" />
       <workItem from="1685881183118" duration="35764000" />
       <workItem from="1686080835833" duration="7247000" />
-      <workItem from="1686757703333" duration="5786000" />
+      <workItem from="1686757703333" duration="8918000" />
+      <workItem from="1687102413544" duration="5436000" />
     </task>
     <servers />
   </component>
